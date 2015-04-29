@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "Ed Extension 1",
+  "description": "A sample extension",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "ed.html",
+    "default_title": "Look for books for sale"
+  },
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "https://ajax.googleapis.com/"
+  ]
+}
